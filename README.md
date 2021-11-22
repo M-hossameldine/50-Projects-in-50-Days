@@ -61,6 +61,6 @@ This is a purely project-based course. It is geared towards beginners, but inter
   49. Todo List
   50. Insect Catch Game
 
-  ### 50 Projects in 50 Days - Original Repo
+### 50 Projects in 50 Days - Original Repo
 
-    https://github.com/bradtraversy/50projects50days
+  https://github.com/bradtraversy/50projects50days
