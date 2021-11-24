@@ -1,8 +1,14 @@
 /* 'Robot' font Regular 400 & Bold 700  */
 @import url('https://fonts.googleapis.com/css2?family=Muli&display=swap');
 
-* {
+html {
     box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
 }
 
 :root {
@@ -13,14 +19,11 @@ body {
     background-color: #f6f7fb;
     font-family: 'Muli', sans-serif;
     display: flex;
-    /* flex-direction: column; */
-    align-items: center; /* flex-direction: column; so the items will be aligned horizontally*/
-    justify-content: center; /*flex-direction: column; so to divide space around items vertically (center)*/
+    align-items: center; 
+    justify-content: center; /*To divide space around items vertically (center)*/
     text-align: center;
     height: 100vh; 
-    overflow: hidden; 
     margin: 0;
-    
 }
 
 .progress-container {

@@ -12,7 +12,6 @@ next.addEventListener('click', () => {
         currentActive = circles.length;
         
     }
-    // console.log(currentActive);
 
     update();
 });
@@ -24,7 +23,6 @@ prev.addEventListener('click', () => {
         currentActive = 1;
         
     }
-    // console.log(currentActive);
 
     update();
 
